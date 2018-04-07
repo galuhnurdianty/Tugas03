@@ -1,9 +1,9 @@
 package tugas03;
 public class Makeup {
-   String merk;
-   String jenis;
-   String nomor;
-   double harga;
+   private String merk;
+   private String jenis;
+   private String nomor;
+   private double harga;
   
     void cetakInfo(){
   System.out.println("Merk \t: "+merk+"\n"+
