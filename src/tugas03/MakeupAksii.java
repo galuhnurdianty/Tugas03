@@ -8,5 +8,14 @@ public class MakeupAksii {
        m.setHarga(55000);
        m.cetakInfo();
        
+    System.out.println("====================================");
+    System.out.print("Merknya \t: ");
+    System.out.println(m.getMerk());
+    System.out.print("Jenisnya \t: ");
+    System.out.println(m.getJenis());
+    System.out.print("Nomornya \t: ");
+    System.out.println(m.getNomor());
+    System.out.print("Harganya \t: ");
+    System.out.println(m.getHarga());
     }
 }
