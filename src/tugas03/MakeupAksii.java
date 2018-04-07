@@ -17,5 +17,16 @@ public class MakeupAksii {
     System.out.println(m.getNomor());
     System.out.print("Harganya \t: ");
     System.out.println(m.getHarga());
+    
+    System.out.println("***********************************");
+    MakeupGiincu mg = new MakeupGiincu();
+    mg.setMerk("Viva");
+    mg.setJenis("Gel");
+    mg.setNomor("09");
+    mg.setHarga(25000);
+    mg.setNamaMakeup("Lip Tint");
+    mg.cetakInfo();
+    System.out.println("Nama Makeupnya \t:"+mg.getNamaMakeup());
+    mg.throttle();
     }
 }
