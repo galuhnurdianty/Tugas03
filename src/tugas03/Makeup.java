@@ -4,4 +4,12 @@ public class Makeup {
    String jenis;
    String nomor;
    double harga;
+  
+    void cetakInfo(){
+  System.out.println("Merk \t: "+merk+"\n"+
+                "Jenis \t: "+jenis+"\n"+
+                "Nomor \t:"+nomor+"\n"+
+                "Harga \t:"+harga);
+  }
+    
 }
