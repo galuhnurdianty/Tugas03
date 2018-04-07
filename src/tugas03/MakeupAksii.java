@@ -28,5 +28,19 @@ public class MakeupAksii {
     mg.cetakInfo();
     System.out.println("Nama Makeupnya \t:"+mg.getNamaMakeup());
     mg.throttle();
+    
+    System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+    MakeupBedak mp = new MakeupBedak();
+    mp.setMerk("Pixi");
+    mp.setJenis("Bedak dan Foundation ");
+    mp.setNomor("05");
+    mp.setHarga(39000);
+    mp.setNamaMakeup("Bedak Two Way Cake");
+    mp.setTekstureMakeup("Bertekstur Padat dan Lembut");
+    mp.cetakInfo();
+    System.out.println("Nama Makeupnya \t:"+mp.getNamaMakeup());
+    System.out.println("Teksture \t:"+mp.getTekstureMakeup());
+    mp.throttle();
+    
     }
 }
