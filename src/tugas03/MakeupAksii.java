@@ -42,5 +42,17 @@ public class MakeupAksii {
     System.out.println("Teksture \t:"+mp.getTekstureMakeup());
     mp.throttle();
     
+    System.out.println("***********************************");
+    MakeupPWajah pw = new MakeupPWajah();
+    pw.setMerk("Acnes");
+    pw.setJenis("Gel");
+    pw.setNomor("10");
+    pw.setHarga(39000);
+    pw.setNamaMakeup("Acnes Clean in Face");
+    pw.setUntuk("Untuk Kulit Berjerawat");
+    pw.cetakInfo();
+    System.out.println("Namanya \t:"+pw.getNamaMakeup());
+    System.out.println("Cocok   \t:"+pw.getUntuk());
+    pw.throttle();
     }
 }
